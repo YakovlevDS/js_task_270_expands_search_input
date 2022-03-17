@@ -1,7 +1,11 @@
-document.querySelector('.sticks').addEventListener('click', (e) =>
+const search=document.querySelector('.sticks'),
+      container=document.querySelector('.input-container'),
+      valueSearch=document.querySelector('.input')
+
+
+search.addEventListener('click', (e) =>
 {
   e.stopPropagation();
   e.preventDefault();
-  //document.querySelector('.input').value = '';
-  document.querySelector('.input-container').blur();
+  container.blur();
 });
