@@ -16,8 +16,7 @@ body
 	--border: 5;
 	--speed: 0.4;
 	--ease: cubic-bezier(.85,.01,.4,.97);
-	--color-bk: #6CD4FF; //#547AA5;
-	
+	--color-bk:#116d04;
 	background: var(--color-bk);
 	display: flex;
 	align-items: center;
@@ -29,7 +28,7 @@ body
 	
 	&:focus-within {
 		--speed: 0.7;
-		background-color: #63C1E8; //#456488;
+		background-color:#63e86a;
 	 }
 }
 
